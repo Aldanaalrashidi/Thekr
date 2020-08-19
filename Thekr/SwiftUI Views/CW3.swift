@@ -41,6 +41,7 @@ struct ThekrCustomModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
         .foregroundColor(.white)
+        .font(.custom(".Al Tarikh", size: 30))
         .multilineTextAlignment(.center)
         .padding()
     }
@@ -50,7 +51,7 @@ struct CounterModifer: ViewModifier {
     func body(content: Content) -> some View{
          content
             .foregroundColor(.white)
-            .font(.largeTitle)
+            .font(.custom(".Al Tarikh", size: 50))
             .padding(.horizontal, 50)
             .padding(.vertical, 3)
             .background(Color.init( #colorLiteral(red: 0.5489003658, green: 0.8530963063, blue: 0.7255270481, alpha: 0.25)))
