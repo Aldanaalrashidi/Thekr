@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Thekr
 //
-//  Created by tahani alrashidi on 8/18/20.
+//  Created by Aldana Al-Rashidi on 8/18/20.
 //  Copyright © 2020 Aldana Al-Rashidi. All rights reserved.
 //
 
@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        let contentView = CW3()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
