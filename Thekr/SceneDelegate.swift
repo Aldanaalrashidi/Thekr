@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Thekr
 //
-//  Created by Aldana Al-Rashidi on 8/18/20.
+//  Created by tahani alrashidi on 8/18/20.
 //  Copyright © 2020 Aldana Al-Rashidi. All rights reserved.
 //
 
